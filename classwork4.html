@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedbacks</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    
+</head>
+<body>
+    <div class="bg-light">
+        <div class="container">
+        <div class="card shadow p-4">
+            <h1 class="bg-danger text-white text-center">Feedback Form</h1>
+
+        <form>
+            <div class="form-group ">
+                <label for="name">Enter your Name:</label>
+                <input type="text" class="form-control form-control-sm" id="name" name="name" placeholder="Your name">
+            </div>
+
+            <div class="form-group ">
+                <label for="email">Enter the Email:</label>
+                <input type="email"  class="form-control form-control-sm" id="email" name="email" placeholder="Your email">
+            </div>
+
+            <div class="form-group">
+                <label for="msg">Feedback:</label>
+                <textarea class="form-control" rows="4" name="msg" id="msg" placeholder="Write your feedback.."></textarea>
+            </div>
+
+            <div class="form-group">
+                <label for="drop">How do they found the site?</label>
+                    <select class="form-control form-control-sm" id="drop">
+                    <option>Select One</option>
+                    <option>Social Media</option>
+                    <option>Friends</option>
+                    <option>Advertisement</option>
+                    </select>
+            </div>
+
+            <div class="form-group">
+                <label for="satisfaction">Satisfaction Level (1 - 4):</label>
+                    <input type="range" class="form-control-range" id="satisfaction" min="1" max="4" required>
+                    <div class="d-flex justify-content-between">
+                        <small>1</small>
+                        <small>4</small>
+                    </div>
+            </div>
+   
+        <button type="submit" class="btn btn-success"> Submit </button>
+
+</form> 
+</div> 
+</div>
+</body>
+</html>
+
+
+
+
+
